@@ -1,0 +1,6 @@
+2026-07-13T10:11:02Z INFO checkout-api request_id=req-1001 route=/checkout status=200 latency_ms=84
+2026-07-13T10:11:07Z INFO checkout-api request_id=req-1002 route=/checkout status=200 latency_ms=91
+2026-07-13T10:12:14Z WARN checkout-api request_id=req-1003 route=/checkout status=503 latency_ms=1204 error="upstream payment timeout"
+2026-07-13T10:12:31Z ERROR checkout-api request_id=req-1004 route=/checkout status=503 latency_ms=1321 error="connection pool exhausted"
+2026-07-13T10:13:04Z ERROR checkout-api request_id=req-1005 route=/checkout status=503 latency_ms=1410 error="connection pool exhausted"
+2026-07-13T10:13:49Z INFO checkout-api request_id=req-1006 route=/cart status=200 latency_ms=73

@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.python_packages/
+_start_server.py
+_run_deepseek.py
+pytest-cache-files-*/
+tmp*/

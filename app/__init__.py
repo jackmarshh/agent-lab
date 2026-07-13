@@ -1,0 +1,1 @@
+"""Minimal operational-agent example."""
