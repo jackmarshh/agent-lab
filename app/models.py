@@ -20,3 +20,4 @@ class DiagnoseResponse(BaseModel):
     recommended_action: str
     evidence: list[Evidence]
     trace: list[str]
+    metadata: dict = Field(default_factory=dict)  # 新增：元数据，用于存储 Token 消耗等统计信息
