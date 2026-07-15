@@ -6,6 +6,7 @@ from pydantic import BaseModel, Field
 class DiagnoseRequest(BaseModel):
     incident: str = Field(min_length=1, max_length=4_000)
     service: str = Field(default="api", min_length=1, max_length=100)
+    conversation_id: str = Field(default="default-session")  # 新增：会话 ID
 
 
 class Evidence(BaseModel):

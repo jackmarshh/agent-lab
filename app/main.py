@@ -1,4 +1,7 @@
 from fastapi import FastAPI
+from dotenv import load_dotenv
+
+load_dotenv()
 
 from app.agent import diagnose
 from app.models import DiagnoseRequest, DiagnoseResponse

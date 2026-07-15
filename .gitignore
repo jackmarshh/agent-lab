@@ -1,4 +1,5 @@
 .env
+my_vectordb/
 .venv/
 __pycache__/
 .pytest_cache/
